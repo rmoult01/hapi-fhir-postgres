@@ -19,7 +19,7 @@ host    all             all             samehost                trust
 
 This defaults to 'false', meaning the server functions normally.
 To set it on, pass the environment variable SERVER_READ_ONLY to tomcat
-with a value of '1' or 'true'. **Reminder:** this can be done by putting
+with a value of '1' or 'true'. Reminder, this can be done by putting
 it in the setenv.sh file in the tomcat bin directory.
 
 ### How to add servers to the test client dropdown list.
@@ -47,7 +47,7 @@ public TesterConfig testerConfig() {
          .addServer()
             .withId("other")
             .withFhirVersion(FhirVersionEnum.DSTU3)
-            .withBaseUrl("http://123.10.44.174:9230/fhir")
+            .withBaseUrl("http://123.10.44.174:9230/baseDstu3")
             .withName("Other Server");
       //
       return retVal;

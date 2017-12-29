@@ -11,7 +11,7 @@
 	<bean class="ca.uhn.fhir.to.TesterConfig">
 		<property name="servers">
 			<list>
-				<value>uhn  , DSTU2 , UHN          , http://fhirtest.uhn.ca/baseDstu2</value>
+				<value>uhn      , DSTU2 , UHN                             , http://fhirtest.uhn.ca/baseDstu2</value>
 				<value>home_d2  , DSTU2 , Localhost Server DSTU2          , http://localhost:8887/fhir/contextDstu2</value>
 				<value>hi       , DSTU1 , Health Intersections            , http://fhir.healthintersections.com.au/open</value>
 				<value>furore   , DSTU1 , Spark - Furore Reference Server , http://spark.furore.com/fhir</value>
